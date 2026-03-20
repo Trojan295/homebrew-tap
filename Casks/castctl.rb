@@ -14,22 +14,22 @@ cask "castctl" do
   on_macos do
     on_intel do
       url "https://storage.googleapis.com/damian-castai-onboard/#{version}/castctl_darwin_amd64.tar.gz"
-      sha256 "fe9918d1f96a3ebb139f0b972b12fa1a4e6324e573d079457cdde85f624be742"
+      sha256 "14102f07907a9ad880facfd9212eae0205e520bacbb680b8a38f4bcc0f35c7d8"
     end
     on_arm do
       url "https://storage.googleapis.com/damian-castai-onboard/#{version}/castctl_darwin_arm64.tar.gz"
-      sha256 "6d5ceebc430d3c9a8a902b6b2d76968150db3d269da4a0e2f1213930a77abf61"
+      sha256 "b7f5830781c90b16490e27ada0aa048eda942f34be42973d8eb66cfee6bc84ee"
     end
   end
 
   on_linux do
     on_intel do
       url "https://storage.googleapis.com/damian-castai-onboard/#{version}/castctl_linux_amd64.tar.gz"
-      sha256 "87ce3cab8c711711c7aee7fde22c5ac86e420fe8b4ae9d3871ee1e17bd56d283"
+      sha256 "567ae0f11b752e6549e46f28877313f20c7cc8acf503af46e809050ec184eff6"
     end
     on_arm do
       url "https://storage.googleapis.com/damian-castai-onboard/#{version}/castctl_linux_arm64.tar.gz"
-      sha256 "6b619bc9ae875e0fe9584a36cb8d8aa49feb3706a2350f2e7552050bfccc2fd4"
+      sha256 "470c24839be50513afd099d2d28afb8ae8054ec55f793cec83a4e385c9f87e42"
     end
   end
 
